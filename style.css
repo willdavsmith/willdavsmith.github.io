@@ -1,0 +1,139 @@
+body {
+	background: #141414;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#welcome {
+	font-size: 70px;
+	float: left;
+	margin-left: 7%;
+	margin-top: 100px;
+}
+.home_text h3 {
+	font-size: 24px;
+	position: relative;
+	margin-top: 50px;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	font-weight: 100;
+}
+#portrait {
+	float: left;
+	margin-top: 50px;
+	margin-left: 30%;
+}
+a {
+	text-decoration: none;
+}
+.header h1 {
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 90px;
+	margin-bottom: 0px;	
+	margin-top: 0px;
+	font-weight: 100;
+}
+.upper_link_pictures {
+	position: absolute;
+	left: 80%;
+	top: 15px;
+}
+.contact_text {
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 200px;
+	text-align: center;
+}
+.text {
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+.text a {
+	color: #FFFFFF;
+	font-size: 20px;
+	text-decoration: underline;
+}
+a:hover {
+	color: #AAAAAA;
+}
+
+/* menubar */
+.menubar li {
+	float: left;
+	width: 19.9%;
+	text-align: center;	
+	z-index: 1;
+	position: absolute;
+	color: #141414;
+	background: white;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
+ul {
+	list-style-type: none;
+}
+.menubar {
+	border-radius: 12px;
+	font-family: 'Abel', sans-serif;
+	color: white;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 30px;
+	float:left; 
+	background: white;
+	z-index: 0;
+	position: absolute;
+    top: 80px;
+}
+.home {
+	top: 0px;
+	left: 10%;
+}
+.about {
+	top: 0px;
+	left: 30%;
+}
+.projects {
+	top: 0px;
+	left: 50%;
+}
+.contact {
+	top: 0px;
+	left: 70%;
+}
+.link {
+	color: #141414;
+	background: white;
+	text-decoration: none;
+}
+.this {
+	color: #FFFFFF;
+	background: #141414;
+}
+.list:hover .link {
+	background: #141414;
+	color: #FFFFFF;
+}
+.list:hover {
+	background: #141414;
+}
+.menubar {
+	border-radius: 12px;
+	font-family: 'Abel', sans-serif;
+	font-size: 16px ;
+	color: #FFFFFF;
+	width: 100%;
+	height: 30px;
+	float:left; 
+	background: #FFFFFF;
+	z-index: 0;
+	position: relative;
+	top: 0px;
+}
