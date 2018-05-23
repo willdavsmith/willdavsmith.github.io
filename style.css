@@ -1,5 +1,5 @@
 body {
-	background: #141414;
+	background-image: url("./assets/mountainbw.jpg");
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-top: 0px;
@@ -58,39 +58,34 @@ a {
 	font-size: 20px;
 	text-decoration: underline;
 }
-a:hover {
-	color: #AAAAAA;
-}
 
 /* menubar */
+.menubar {
+	border-radius: 12px;
+	font-family: 'Abel', sans-serif;
+	font-size: 16px;
+	width: 100%;
+	height: 30px;
+	float:left; 
+	background: #FFFFFF;
+	z-index: 0;
+	position: relative;
+	top: 0px;
+}
 .menubar li {
 	float: left;
 	width: 19.9%;
 	text-align: center;	
 	z-index: 1;
 	position: absolute;
-	color: #141414;
-	background: white;
-	text-decoration: none;
 	padding-top: 5px;
 	padding-bottom: 4px;
 }
 ul {
 	list-style-type: none;
 }
-.menubar {
-	border-radius: 12px;
-	font-family: 'Abel', sans-serif;
-	color: white;
-	width: 100%;
-	margin-left: 0px;
-	margin-right: 0px;
-	height: 30px;
-	float:left; 
-	background: white;
-	z-index: 0;
-	position: absolute;
-    top: 80px;
+a {
+	color: #3d3d3d;
 }
 .home {
 	top: 0px;
@@ -108,32 +103,16 @@ ul {
 	top: 0px;
 	left: 70%;
 }
-.link {
-	color: #141414;
-	background: white;
-	text-decoration: none;
-}
 .this {
 	color: #FFFFFF;
-	background: #141414;
+	background: #8d8d8d;
+}
+.list {
+	background: #FFFFFF;
 }
 .list:hover .link {
-	background: #141414;
 	color: #FFFFFF;
 }
 .list:hover {
-	background: #141414;
-}
-.menubar {
-	border-radius: 12px;
-	font-family: 'Abel', sans-serif;
-	font-size: 16px ;
-	color: #FFFFFF;
-	width: 100%;
-	height: 30px;
-	float:left; 
-	background: #FFFFFF;
-	z-index: 0;
-	position: relative;
-	top: 0px;
+	background: #8d8d8d;
 }
