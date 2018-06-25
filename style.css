@@ -150,12 +150,11 @@
 		box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 	}
 }
-.back a img {
-	width: 20px;
-	height: 20px;
-	position: absolute;
-	left: 20px;
-	top: 20px;
+.back {
+	font-size: 30px;
+	float: left;
+	margin-top: 4px;
+	margin-left: 5px;
 	animation-name: back_blur;
 	animation-duration: 3s;
 	animation-delay: 2s;
@@ -163,6 +162,22 @@
 	animation-timing-function: ease-in-out;
 }
 @keyframes back_blur {
-	from {opacity: 0;}
-	to {opacity: .5;}
+	from {color: rgba(255, 255, 255, 0);}
+	to {color: rgba(255, 255, 255, .8);}
+}
+.home_links {
+	color: #536880;
+	font-size: 50px;
+}
+.page_links {
+	font-size: 30px;
+	animation-name: box_link_blur;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-fill-mode: both;
+	animation-timing-function: ease-in-out;
+}
+@keyframes box_link_blur {
+	from {color: rgba(255, 255, 255, 0);}
+	to {color: rgba(255, 255, 255, .8);}
 }
