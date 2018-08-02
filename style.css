@@ -26,21 +26,27 @@
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	animation-timing-function: ease-in-out;
+    -webkit-animation-name: home_blur;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
 	top: 50%;
     left: 50%;
 	transform: translate(-50%, -50%);
 }
-@keyframes home_blur {
+@-webkit-keyframes home_blur {
 	from {
 		text-shadow: rgba(0, 0, 0, .5) 1px 1px 7px;
 	}
 	to {
-		text-shadow: rgba(0, 0, 0, .8) 5px 5px 7px;
+		text-shadow: rgba(0, 0, 0, .8) 10px 10px 7px;
 	}
 }
 .text a {
 	text-decoration: underline;
 	animation-name: link_blur;
+    -webkit-animation-name: link_blur;
 	color: rgba(255, 255, 255, 1);
 }
 .home a {
@@ -54,8 +60,12 @@
 	animation-delay: 1.5s;
 	animation-fill-mode: both;
 	animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
 }
-@keyframes link_blur {
+@-webkit-keyframes link_blur {
 	from {color: rgba(255, 255, 255, 0);}
 	to {color: rgba(255, 255, 255, 1);}
 }
@@ -81,15 +91,22 @@
 	animation-delay: .25s;
 	animation-fill-mode: both;
 	animation-timing-function: ease-in-out;
+    -webkit-animation-name: background_blur;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: .25s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
 }
-@keyframes background_blur {
+@-webkit-keyframes background_blur {
 	from {filter: blur(0px);}
 	to {filter: blur(5px);}
 }
 .header {
 	margin-top: 40px;
-	width: 100%;
-	text-align: center;
+    width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 50px;
 	font-weight: 100;
@@ -99,8 +116,13 @@
 	animation-delay: .75s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
+    -webkit-animation-name: header_blur;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: .75s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in-out;
 }
-@keyframes header_blur {
+@-webkit-keyframes header_blur {
 	from {color: rgba(255, 255, 255, 0);}
 	to {color: rgba(255, 255, 255, 1);}
 }
@@ -120,8 +142,13 @@
 	animation-delay: 1.5s;
 	animation-fill-mode: both;
 	animation-timing-function: ease-in-out;
+    -webkit-animation-name: box_text_blur;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
 }
-@keyframes box_text_blur {
+@-webkit-keyframes box_text_blur {
 	from {color: rgba(255, 255, 255, 0);}
 	to {color: rgba(255, 255, 255, 1);}
 }
@@ -137,14 +164,19 @@
 	animation-delay: .25s;
 	animation-fill-mode: both;
 	animation-timing-function: ease-in-out;
+    -webkit-animation-name: box_blur;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: .25s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
 	z-index: -9;
 }
-@keyframes box_blur {
-	from {
+@-webkit-keyframes box_blur {
+	0% {
 		background: rgba(0,0,10, .0);
 		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0);
 	}
-	to {
+	100% {
 		background: rgba(0,0,10, .5);
 		box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 	}
@@ -159,8 +191,13 @@
 	animation-delay: 2s;
 	animation-fill-mode: both;
 	animation-timing-function: ease-in-out;
+    -webkit-animation-name: back_blur;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
 }
-@keyframes back_blur {
+@-webkit-keyframes back_blur {
 	from {color: rgba(255, 255, 255, 0);}
 	to {color: rgba(255, 255, 255, .8);}
 }
@@ -175,8 +212,13 @@
 	animation-delay: 2s;
 	animation-fill-mode: both;
 	animation-timing-function: ease-in-out;
+    -webkit-animation-name: box_link_blur;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
 }
-@keyframes box_link_blur {
+@-webkit-keyframes box_link_blur {
 	from {color: rgba(255, 255, 255, 0);}
 	to {color: rgba(255, 255, 255, .8);}
 }
