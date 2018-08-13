@@ -9,26 +9,62 @@
         <meta name="author" content="smithwid@iu.edu">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
-		<link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<div class="background_static"></div>
-		<div class="upper_link_pictures">
-			<a href="https://www.linkedin.com/in/will-smith-7788a4153/">
-				<span class="home_links fab fa-linkedin"></span>
-			</a>
-			<a href="https://github.com/willdavsmith">
-				<span class="home_links fab fa-github-square"></span>
-			</a>
-			<a href="https://twitter.com/smithwilldavid">
-				<span class="home_links fab fa-twitter-square"></span>
-			</a>
-		</div>
-		<div class="home">
-			<a href="./about.html">About</a>
-			<a href="./projects.html">Projects</a>
-			<a href="./contact.html">Contact</a>
-		</div>
+        <div id="content_container">
+            <div id="header">
+                <a href="./index.html">Will Dav Smith</a>
+            </div>
+            <div class="upper_link_pictures">
+                <a href="https://www.linkedin.com/in/will-smith-7788a4153/">
+                    <span class="home_links fab fa-linkedin"></span>
+                </a>
+                <a href="https://github.com/willdavsmith">
+                    <span class="home_links fab fa-github-square"></span>
+                </a>
+                <a href="https://twitter.com/smithwilldavid">
+                    <span class="home_links fab fa-twitter-square"></span>
+                </a>
+            </div>
+            <div class="information_outer">
+                <div class="projects info" id="pOuter">
+                    <a class="home" id="p" onclick="showInfo(id);" onmouseenter="upscale(id);" onmouseleave="downscale(id);">Projects</a>
+                    <p class="information text" id="pInfo">
+                        HTML/CSS/JS<br><br>
+                        Rocket Clock, an in-browser timer<br>
+                        d20.js, an in-browser dice roller<br>
+                        willdavsmith.com source code<br>
+                        <br><br>
+                        Java<br><br>
+                        Library Management System, pure Java, created as a school project<br>
+                        Leetcode solutions, practice on Data Structures and Algorithms<br>
+                        TalkingClock, a clock that takes a numeric time and outputs a human-readable version in words<br>
+                        <br><br>
+                        Python<br><br>
+                        IOTA Seed Generator, a script that generates a sequence of characters to be used as an IOTA seed<br>
+                        Password Generator, a script that generates a unique password<br>
+                    </p>
+                </div>
+                <div class="about info" id="aOuter">
+                    <a class="home" id="a" onclick="showInfo(id);" onmouseenter="upscale(id);" onmouseleave="downscale(id);">About</a>
+                    <p class="text" id="aInfo">
+                        I am Will Smith, an undergrad at Indiana University majoring in Computer Science with a minor in Mathematics. My main development language is Java, however I also have experience in other languages such as Python, Racket, R, and the HTML/CSS/JS stack. I also have experience with various design and development tools, such as Photoshop, Illustrator, Git, and the Linux command line.<br><br>
+                        My interests range from Object-Oriented development to Data Science to Web Development. Although I focus on Java programming, I do my best to stay well-rounded and open to new paradigms, always ready to pick up a new technology or technique.
+                    </p>
+                </div>
+                <div class="contact info" id="cOuter">
+                    <a class="home" id="c" onclick="showInfo(id);" onmouseenter="upscale(id);" onmouseleave="downscale(id);">Contact</a>
+                    <p class="text" id="cInfo">
+                        You can reach me at smithwid@iu.edu<br><br>
+                        A resume is available upon request.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <canvas id="canvas">Your browser does not support this page.</canvas>
+        <script src="main.js"></script>
 	</body>
 </html>
