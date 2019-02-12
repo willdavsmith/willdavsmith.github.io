@@ -46,6 +46,7 @@ function showInfo(id) {
     let info = document.getElementById(id + "Info");
     let count = 16;
     let interval = setInterval(animateDOM, 10);
+    info.style.color = `rgba(255, 255, 255, 0)` 
     function animateDOM() {
         if (count <= 0) {
             clearInterval(interval);

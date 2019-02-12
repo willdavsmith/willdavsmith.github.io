@@ -96,12 +96,15 @@
 }
 #pInfo {
     color: rgba(255, 255, 255, 0);
+    font-family: 'Abel', sans-serif;
 }
 #aInfo {
     color: rgba(255, 255, 255, 0);
+    font-family: 'Abel', sans-serif;
 }
 #cInfo {
     color: rgba(255, 255, 255, 0);
+    font-family: 'Abel', sans-serif;
 }
 
 /* General text formatting rules */
