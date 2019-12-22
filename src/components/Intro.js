@@ -5,10 +5,10 @@ import '../styles/Intro.css';
 
 export default function Intro() {
     return (
-        <header className="App-intro">
-            <p className="App-intro-initials">W<span className="App-intro-name">ILL</span> <span className="App-intro-intitials">S</span><span className="App-intro-name">MITH</span></p>
+        <header id="intro">
+            <p className="intro-initials">W<span className="intro-name">ILL</span> <span className="intro-intitials">S</span><span className="intro-name">MITH</span></p>
             <hr id="App-intro-bar"></hr>
-            <p className="App-intro-title">SOFTWARE ENGINEER</p>
+            <p id="intro-title">SOFTWARE ENGINEER</p>
             <Navbar />
         </header>
     )
