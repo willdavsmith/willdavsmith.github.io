@@ -1,0 +1,36 @@
+.nav {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.5);
+    font-size: calc(2vmin);
+  }
+
+.nav .nav-content {
+    max-width: 900px;
+    padding: 0rem 3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.Navbar-nav {
+    margin: auto;
+    padding: 0;
+}
+
+.Navbar-nav-item:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.Navbar-nav-item {
+    display: inline;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: rgba(255, 255, 255, 0.568);
+}

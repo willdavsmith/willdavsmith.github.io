@@ -1,0 +1,12 @@
+
+  .Section {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    color: rgb(27, 52, 75);
+    font-size: calc(40px + 2vmin);
+    font-weight: 100;
+  }
